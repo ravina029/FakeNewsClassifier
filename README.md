@@ -34,12 +34,21 @@ streamlit run app.py
 
 
 
-# Building Information
-1. datset link: data is downloaded from kaggle, https://www.kaggle.com/datasets/hassanamin/textdb3/data
-2. The machine learning model uses a Passive Aggressive Classifier trained on TF-IDF vectorsand gave an accuracy of >92%. 
-3. NLP techniques for text preprocessing.Text preprocessing involves stemming and stop word removal.
-4. Scikit-learn for the machine learning model.
-5. Streamlit for the web application.
+# Technologies Used:
+
+1. Python
+2. Streamlit
+3. Natural Language Processing (NLP)
+4. scikit-learn
+5. GitHub
+
+# Key Features:
+1. Datset link: data is downloaded from kaggle, https://www.kaggle.com/datasets/hassanamin/textdb3/data.
+2. Trained a machine learning model on a dataset of above news articles.
+3. The machine learning model uses a Passive Aggressive Classifier trained on TF-IDF vectorsand gave an accuracy of >92%. 
+4. NLP techniques for text preprocessing.Text preprocessing involves stemming and stop word removal.
+5. Scikit-learn for the machine learning model.
+6. Streamlit for the web application.
 
 # Results:
 
