@@ -1,1 +1,42 @@
 
+# Fake News Classifier
+
+## Overview
+This project aims to classify news articles into reliable and fake categories using machine learning models. The implementation includes a Streamlit web application that provides users with an interface to input news articles and receive predictions.
+
+## Project Structure
+- `app.py`: Streamlit web application code.
+- `vectorizer.pkl`: Pickle file for the TF-IDF vectorizer used in text preprocessing.
+- `pac.pkl`: Pickle file for the trained Passive Aggressive Classifier model.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ravina029/FakeNewsClassifier.git
+   cd fake-news-classifier
+
+
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Run the Streamlit app:
+streamlit run app.py
+
+
+# Usage
+1. Open the Streamlit app in your browser.
+2. Enter a news article in the provided text area.
+3. Click the "Predict" button to get the classification result.
+
+
+# Building Information
+1. datset link: data is downloaded from kaggle, https://www.kaggle.com/datasets/hassanamin/textdb3/data
+2. The machine learning model uses a Passive Aggressive Classifier trained on TF-IDF vectorsand gave an accuracy of >92%. 
+3. NLP techniques for text preprocessing.Text preprocessing involves stemming and stop word removal.
+4. Scikit-learn for the machine learning model.
+5. Streamlit for the web application.
+
+
+# Screenshots of the App
+![Application Output](Fake_predict.png)
+![Application Output](reliable_predict.png)

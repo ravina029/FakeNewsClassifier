@@ -24,14 +24,14 @@ def fake_news(news):
 
 
 if __name__ == '__main__':
-    st.title('Fake News Identifier ')
-    st.subheader("Input the News below")
-    sentence = st.text_area("Enter news", "",height=200)
+    st.title('Fake News Classifier ')
+    st.subheader("Provide The News Below")
+    sentence = st.text_area("Enter News", "",height=200)
     predict_bt = st.button("predict")
     if predict_bt:
         prediction_class=fake_news(sentence)
         print(prediction_class)
         if prediction_class == [0]:
-            st.success('Reliable')
+            st.success('Fake')
         if prediction_class == [1]:
-            st.warning('Fake')
+            st.warning('Reliable')
