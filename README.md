@@ -2,7 +2,8 @@
 # Fake News Classifier
 
 ## Overview
-This project aims to classify news articles into reliable and fake categories using machine learning models. The implementation includes a Streamlit web application that provides users with an interface to input news articles and receive predictions.
+Developed and implemented a Fake News Classifier using machine learning and NLP techniques, achieving over 92% accuracy. Created a user-friendly Streamlit web app for easy news article input and classification. Utilized a Passive Aggressive Classifier trained on TF-IDF vectors, demonstrating strong classification results. Successfully identified reliable and fake news, contributing to effective information verification.
+
 
 # Technologies Used:
 
@@ -58,5 +59,16 @@ streamlit run app.py
 
 1. Explore additional NLP techniques for better feature extraction.
 2. Enhance the user interface for a more engaging experience.
+
+
+
+
+
+
+
+
+
+
+
 
 
