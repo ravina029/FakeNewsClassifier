@@ -4,6 +4,14 @@
 ## Overview
 This project aims to classify news articles into reliable and fake categories using machine learning models. The implementation includes a Streamlit web application that provides users with an interface to input news articles and receive predictions.
 
+# Technologies Used:
+
+1. Python
+2. Streamlit
+3. Natural Language Processing (NLP)
+4. scikit-learn
+5. GitHub
+
 ## Project Structure
 - `app.py`: Streamlit web application code.
 - `vectorizer.pkl`: Pickle file for the TF-IDF vectorizer used in text preprocessing.
@@ -33,12 +41,12 @@ streamlit run app.py
 
 
 
-# Building Information
+# Key Features:
 1. datset link: data is downloaded from kaggle, https://www.kaggle.com/datasets/hassanamin/textdb3/data
 2. The machine learning model uses a Passive Aggressive Classifier trained on TF-IDF vectorsand gave an accuracy of >92%. 
 3. NLP techniques for text preprocessing.Text preprocessing involves stemming and stop word removal.
-4. Scikit-learn for the machine learning model.
-5. Streamlit for the web application.
+4. Created a user-friendly web application using Streamlit for news classification.
+
 
 # Results:
 
