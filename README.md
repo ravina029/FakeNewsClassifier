@@ -13,8 +13,7 @@ This project aims to classify news articles into reliable and fake categories us
 1. Clone the repository:
    ```bash
    git clone https://github.com/ravina029/FakeNewsClassifier.git
-   cd fake-news-classifier
-
+   
 
 2. Install dependencies:
 pip install -r requirements.txt
