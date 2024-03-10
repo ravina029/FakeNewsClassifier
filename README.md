@@ -38,5 +38,5 @@ streamlit run app.py
 
 
 # Screenshots of the App
-![Application Output](Fake_predict.png)
-![Application Output](reliable_predict.png)
+![Application Output](Fake.png)
+![Application Output](reliable.png)
