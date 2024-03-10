@@ -28,6 +28,11 @@ streamlit run app.py
 2. Enter a news article in the provided text area.
 3. Click the "Predict" button to get the classification result.
 
+# Screenshots of the App
+![Application Output](Fake.png)
+![Application Output](reliable.png)
+
+
 
 # Building Information
 1. datset link: data is downloaded from kaggle, https://www.kaggle.com/datasets/hassanamin/textdb3/data
@@ -36,7 +41,15 @@ streamlit run app.py
 4. Scikit-learn for the machine learning model.
 5. Streamlit for the web application.
 
+# Results:
 
-# Screenshots of the App
-![Application Output](Fake.png)
-![Application Output](reliable.png)
+1. The project successfully detects and classifies news articles as reliable or fake.
+2. Achieved accuracy of >92%.
+
+
+# Future Improvements:
+
+1. Explore additional NLP techniques for better feature extraction.
+2. Enhance the user interface for a more engaging experience.
+
+
