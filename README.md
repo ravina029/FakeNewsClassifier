@@ -63,8 +63,8 @@ streamlit run app.py
 
 | Input Example | Prediction |
 |---------------|------------|
-| ![Fake News](../../Downloads/Fake.png) | Fake |
-| ![Reliable News](../../Downloads/reliable.png) | Reliable |
+| ![Fake News](Fake.png) | Fake |
+| ![Reliable News](reliable.png) | Reliable |
 
 ---
 
